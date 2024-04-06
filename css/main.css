@@ -1,3 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+h2, h3, h4, h5, h6 {
+  padding: 30px;
+  font-family: Roboto, sans-serif;
+  color: rgb(78, 76, 76);
+  font-size: small;
+  text-align: center;
+}
+
+p {
+  padding: 30px;
+  font-family: Montserrat, sans-serif;
+  color: #37260c;
+  font-size: small;
+}
+
+@media (min-width: 768px) {
+  h2, h3, h4, h5, h6, p, a, li {
+    font-size: large;
+  }
+}
+h1 {
+  padding: 30px;
+  font-family: Roboto, sans-serif;
+  color: rgb(78, 76, 76);
+  padding: 20px;
+  background-image: url(../assets/images/home/backgroundH1.jpg);
+  height: 350px;
+  font-size: large;
+  display: flex;
+  justify-content: start;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: x-large;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: xx-large;
+  }
+}
+h5 {
+  text-align: end;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  padding: 20px 30px;
+  background-color: rgb(202, 168, 168);
+}
+
+nav ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+}
+.link {
+  color: rgb(180, 98, 88);
+  text-decoration: none;
+}
+
+footer section {
+  display: grid;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  footer section {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+body {
+  background-color: #c8c696;
+}
+
+section {
+  padding: 30px;
+  width: 100%;
+  border-radius: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section img {
+  border-radius: 10%;
+  max-width: 100%;
+  height: auto;
+}
+
+.plancanje, .naty {
+  background-color: #97bea9;
+  border-radius: 10%;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+}
+
+.productos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  justify-items: center;
+}
+
+@media (min-width: 768px) {
+  .productos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .productos {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.ver-catalogo {
+  color: rgb(180, 98, 88);
+  font-size: x-large;
+  border-radius: 5px;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=main.css.map */

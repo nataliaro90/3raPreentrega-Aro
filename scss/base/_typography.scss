@@ -1,0 +1,45 @@
+h2, h3, h4, h5, h6 {
+    padding: 30px;
+    font-family: Roboto, sans-serif;
+    color: $color-text;
+    font-size: small;
+    text-align: center;
+}
+
+p, {
+    padding: 30px;
+    font-family: Montserrat, sans-serif;
+    color: $color-text-secondary;
+    font-size: small
+}
+
+@media (min-width:768px){
+    h2, h3, h4, h5, h6, p, a, li {
+        font-size: large
+    }
+}
+h1 {
+    padding: 30px;
+    font-family: Roboto, sans-serif;
+    color: $color-text;
+    padding: 20px;
+    background-image: url(../assets/images/home/backgroundH1.jpg);
+    height: 350px;
+    font-size: large;
+    display: flex;
+    justify-content: start;  
+}
+@media (min-width:768px) {
+    h1 {
+        font-size: x-large;
+    }
+}
+@media (min-width:1200px) {
+    h1 {
+        font-size: xx-large;
+    }
+}
+
+h5{
+    text-align: end;
+}
