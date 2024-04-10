@@ -30,15 +30,11 @@ section img {
     grid-template-columns: 1fr;
     gap: 10px;
     justify-items: center;
-}
-@media (min-width: 768px) {
-    .productos {
+    @media (min-width: 768px) {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
-}
-@media (min-width: 1200px) {
-    .productos {
+    @media (min-width: 1200px) {
         display: flex;
         justify-content: space-between;
     }
