@@ -1,3 +1,9 @@
+@media (min-width: 768px) {
+  h2, h3, h4, h5, h6, p, a, li {
+    font-size: large;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +13,10 @@
 @font-face {
   font-family: Roboto;
   src: url(../assets/fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Monserrat;
+  src: url(../assets/fonts/Monserrat-VariableFont_wght.ttf);
 }
 h2, h3, h4, h5, h6 {
   padding: 30px;
@@ -23,11 +33,6 @@ p {
   font-size: small;
 }
 
-@media (min-width: 768px) {
-  h2, h3, h4, h5, h6, p, a, li {
-    font-size: large;
-  }
-}
 h1 {
   padding: 30px;
   font-family: Roboto, sans-serif;
@@ -68,8 +73,6 @@ nav ul li {
 }
 @media (min-width: 768px) {
   nav ul li {
-    margin-left: 10px;
-    margin-right: 10px;
     display: inline-block;
   }
 }
@@ -145,7 +148,7 @@ section img {
   text-decoration: none;
 }
 
-iframe {
+video {
   margin: 10px;
   padding: 10px;
   border-radius: 5%;
@@ -169,7 +172,6 @@ article img {
   border-radius: 50%;
   max-width: 100%;
   height: auto;
-  padding: 20px;
 }
 @media (min-width: 768px) {
   article {
@@ -180,7 +182,6 @@ article img {
 
 .section-promos {
   display: grid;
-  width: 100%;
   grid-template-columns: 1fr;
   gap: 10px;
   justify-items: center;
@@ -190,18 +191,13 @@ article img {
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
     grid-row: repeat(3, fr);
-    gap: 10px;
-    justify-items: center;
   }
 }
 @media (min-width: 1200px) {
   .section-promos {
-    display: grid;
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-row: repeat(2, fr);
-    gap: 10px;
-    justify-items: center;
   }
 }
 

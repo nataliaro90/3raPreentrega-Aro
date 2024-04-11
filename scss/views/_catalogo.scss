@@ -1,4 +1,4 @@
-iframe {
+video {
     margin: 10px;
     padding: 10px;
     border-radius: 5%;
@@ -9,9 +9,9 @@ iframe {
 article {
     padding: 20px;
     margin: 10px;
-    background-color: #97bea9;
+    background-color: $color-tertiary;
     border-radius: 5%;
-    border: solid #496455;
+    border: solid $color-fouthy;
     display: flex;
     flex-wrap: wrap;
     h2 {
@@ -21,7 +21,6 @@ article {
         border-radius: 50%;
         max-width: 100%;
         height: auto;
-        padding: 20px;
     }
     @media (min-width:768px) {
         display: grid;
