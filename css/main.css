@@ -102,8 +102,8 @@ nav ul li {
 
 footer section {
   padding: 10px;
-  display: grid;
-  justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
 @media (min-width: 768px) {
   footer section {
@@ -170,8 +170,10 @@ video {
   margin: 10px;
   padding: 10px;
   border-radius: 5%;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 article {
